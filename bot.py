@@ -9,7 +9,7 @@ import random
 
 BOT_PREFIX = "a!"
 client = Bot(command_prefix=BOT_PREFIX)
-BOT_TOKEN = "NTE4Mzg2MjcwMTMzODEzMjU4.DyzJWQ.VaeT4xHlyf8Auu6PKaACmKHFlYQ"
+BOT_TOKEN = "NTM4Nzg3NjA4MjEwNDQwMjAy.Dy44qA.QIAprXHfE_ztkr4HtmhN2PeF9gw"
 
 @client.event
 async def on_message(message):
