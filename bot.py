@@ -19,7 +19,7 @@ let user = message.mentions.members.first();
       if (!user) user = message.member;
       let av = new Discord.RichEmbed()
           .setTitle("Info")
-          .setDescription("Astis - сервер созадный для общения и нахождения новых друзей ")
+          .setDescription(")
           .setColor("FF8C00")
           .setFooter('Astis#6830',')
       message.channel.send({embed: av});
